@@ -1,6 +1,11 @@
 # Community Related To Books
 - I created a community site related to books in the form of JSP Model 1.
 
+## Features
+- A site that anyone can use.
+- A book search function using "[Kakao Api](https://developers.kakao.com/)".
+- Apply "[WYSIWYG editor](http://suneditor.com/)" to the text area.
+
 ## Demo
 <img src="src/main/webapp/resources/img/demo.gif">
 
