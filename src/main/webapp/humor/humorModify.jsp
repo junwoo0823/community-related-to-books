@@ -97,7 +97,7 @@ HumorVO humorVO = humorDAO.getHumor(num);
 					<br>
 
 					<div class="card shadow mb-0">
-						<form action="/humor/humorWritePro.jsp" method='post' id='formHumor' name='formHumor' enctype="multipart/form-data">
+						<form action="/humor/humorModifyPro.jsp" method='post' id='formHumor' name='formHumor' enctype="multipart/form-data">
 							<input type="hidden" name="pageNum" value="<%=pageNum%>">
 							<input type="hidden" name="num" value="<%=humorVO.getHnum()%>">
 							<input type="hidden" name="nick" value="<%=memberVO.getNickname()%>">

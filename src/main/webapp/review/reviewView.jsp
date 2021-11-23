@@ -132,7 +132,7 @@ SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd (HH:mm)");
 									if (id.equals(reviewVO.getRmid()) || id.equals("admin")) { // 본인 일 때만
 								%>
 								<div class="btn-group">
-									<button type="button" class="btn btn-primary" onclick="location.href='/review/reviewModify.jsp?num=<%=reviewVO.getRnum()%>&pageNum=<%=pageNum%>'">재등록</button>
+									<button type="button" class="btn btn-primary" onclick="location.href='/review/reviewModify.jsp?num=<%=reviewVO.getRnum()%>&pageNum=<%=pageNum%>'">수정</button>
 									<button type="button" class="btn btn-danger" onclick="remove(event)">삭제</button>
 								</div>
 								<%

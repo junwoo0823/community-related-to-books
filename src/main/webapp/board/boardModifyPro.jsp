@@ -42,5 +42,5 @@ boardDAO.updateBoard(boardVO);
 String pageNum = multi.getParameter("pageNum");
 %>
 <script>
-	location.href = '/board/boardView.jsp.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
+	location.href = '/board/boardView.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
 </script>

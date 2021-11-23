@@ -97,7 +97,7 @@ ReviewVO reviewVO = reviewDAO.getReview(num);
 					<br>
 
 					<div class="card shadow mb-0">
-						<form action="/review/reviewWritePro.jsp" method='post' id='formReview' name='formReview' enctype="multipart/form-data">
+						<form action="/review/reviewModifyPro.jsp" method='post' id='formReview' name='formReview' enctype="multipart/form-data">
 							<input type="hidden" name="pageNum" value="<%=pageNum%>">
 							<input type="hidden" name="num" value="<%=reviewVO.getRnum()%>">
 							<input type="hidden" name="nick" value="<%=memberVO.getNickname()%>">

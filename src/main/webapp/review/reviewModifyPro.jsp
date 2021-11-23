@@ -42,5 +42,5 @@ reviewDAO.updateReview(reviewVO);
 String pageNum = multi.getParameter("pageNum");
 %>
 <script>
-	location.href = '/review/reviewView.jsp.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
+	location.href = '/review/reviewView.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
 </script>

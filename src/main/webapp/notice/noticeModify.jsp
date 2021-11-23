@@ -97,7 +97,7 @@ NoticeVO noticeVO = noticeDAO.getNotice(num);
 					<br>
 
 					<div class="card shadow mb-0">
-						<form action="/notice/noticeWritePro.jsp" method='post' id='formNotice' name='formNotice' enctype="multipart/form-data">
+						<form action="/notice/noticeModifyPro.jsp" method='post' id='formNotice' name='formNotice' enctype="multipart/form-data">
 							<input type="hidden" name="pageNum" value="<%=pageNum%>">
 							<input type="hidden" name="num" value="<%=noticeVO.getNnum()%>">
 							<input type="hidden" name="nick" value="<%=memberVO.getNickname()%>">

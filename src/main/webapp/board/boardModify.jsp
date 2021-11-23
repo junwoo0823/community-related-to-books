@@ -97,7 +97,7 @@ BoardVO boardVO = boardDAO.getBoard(num);
 					<br>
 
 					<div class="card shadow mb-0">
-						<form action="/board/boardWritePro.jsp" method='post' id='formBoard' name='formBoard' enctype="multipart/form-data">
+						<form action="/board/boardModifyPro.jsp" method='post' id='formBoard' name='formBoard' enctype="multipart/form-data">
 							<input type="hidden" name="pageNum" value="<%=pageNum%>">
 							<input type="hidden" name="num" value="<%=boardVO.getNum()%>">
 							<input type="hidden" name="nick" value="<%=memberVO.getNickname()%>">

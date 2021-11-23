@@ -42,5 +42,5 @@ noticeDAO.updateNotice(noticeVO);
 String pageNum = multi.getParameter("pageNum");
 %>
 <script>
-	location.href = '/notice/noticeView.jsp.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
+	location.href = '/notice/noticeView.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
 </script>

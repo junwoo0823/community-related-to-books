@@ -42,5 +42,5 @@ humorDAO.updateHumor(humorVO);
 String pageNum = multi.getParameter("pageNum");
 %>
 <script>
-	location.href = '/humor/humorView.jsp.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
+	location.href = '/humor/humorView.jsp?num=<%=num%>&pageNum=<%=pageNum%>';
 </script>
